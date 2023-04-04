@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <title>Portofolio</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav-container">
+        <ul class="navbar-menu">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./portofolio.html">Portofolio</a></li>
+          <li><a href="./hobby.html">Hobby</a></li>
+          <li><a href="./blog.html">Blog</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <h1>
+          Hey There, I'am Perdana <span><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="50px" /></span>
+        </h1>
+        <p class="description">I'am a <span class="auto-type"></span> Enthusiast</p>
+        <div class="logo-social-media">
+          <a href="https://www.instagram.com/per.danaph/" target="_blank"><img src="./images/Instagram.png" alt="instagram" /></a>
+          <a href="https://www.linkedin.com/in/perdana-putro-harwanto-1515a5245/" target="_blank"><img src="./images/linkedin.png" alt="linkedin" /></a>
+          <a href="https://www.github.com/perdanaph" target="_blank"><img src="./images/githubme.png" alt="github" /></a>
+        </div>
+      </section>
+    </main>
+    <script>
+      let typed = new Typed('.auto-type', {
+        strings: ['Web Development', 'Mobile Development', 'Javascript', 'PHP', 'Go', 'Flutter'],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
