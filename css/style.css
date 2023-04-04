@@ -192,19 +192,21 @@ main .content-container .content p{
   text-align: justify;
 }
 
-/* @media (min-width: 40rem) {
-  main .content-container .content {
-    width: 50%;
-  }
-}
-
-@media (min-width: 56rem) {
-  main .content-container .content {
-    width: 33.3333%;
-  }
-} */
-
 /* hobby end */
 
+
+/* Blog Start */
+.blog {
+  display: grid;
+  place-items: center;
+  height: calc(100vh - 15rem);
+}
+
+.blog h1 {
+  font-size: 64px;
+  font-weight: 900;
+}
+
+/* Blog End */
 
 
