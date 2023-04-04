@@ -89,30 +89,23 @@ html {
 
 .about {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   padding: 1rem 8rem;
-  width: 70%;
+  width: 100%;
   gap: 10px;
   color: #2e2e2e;
 }
 
 .about-me {
-  width: 100%;
-  font-size: 28px;
-  text-align: center;
-}
-
-.skill-interest {
+  width: 50%;
   display: flex;
-  gap: 60px;
+  flex-direction: column;
+  gap: 10px;
+  text-align: justify;
 }
 
-.skill-interest ul {
-  padding-inline-start: 15px;
-}
-
-.skill-interest ul li {
-  font-size: 14px;
+.about-me h1 {
+  font-size: 2.1rem;
 }
 
 .works {
